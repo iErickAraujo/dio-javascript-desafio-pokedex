@@ -6,24 +6,26 @@
 /* #fff */
 
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box; /* padronizar a borda */
 }
 
 body {
-  background-color: #faf8fc;
+  background-color: #daf7eb;;
 }
 
 .content {
   width: 100vw;
   height: 100vh;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #daf7eb;
 }
 
 @media screen and (min-width: 992px) {
   .content {
-    max-width: 992px;
+    /* max-width: 992px; */
     height: auto;
     margin: 1rem auto;
     border-radius: 1rem;
